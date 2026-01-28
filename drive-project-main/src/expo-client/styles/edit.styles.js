@@ -1,0 +1,45 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    container: { flex: 1, backgroundColor: '#f8f9fa', padding: 20 },
+    card: {
+        backgroundColor: '#fff',
+        padding: 24,
+        borderRadius: 8,
+        elevation: 2,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.1,
+        shadowRadius: 4,
+    },
+    loadingText: { color: '#6c757d', marginBottom: 15 },
+    formGroup: { marginBottom: 15 },
+    label: { fontSize: 16, marginBottom: 8, color: '#212529' },
+    input: {
+        borderWidth: 1,
+        borderColor: '#ced4da',
+        borderRadius: 4,
+        padding: 10,
+        fontSize: 16,
+        color: '#212529',
+    },
+    textArea: { minHeight: 120, textAlignVertical: 'top' },
+    buttonRow: { flexDirection: 'row', marginTop: 10 },
+    backBtn: {
+        paddingVertical: 8,
+        paddingHorizontal: 16,
+        borderRadius: 4,
+        borderWidth: 1,
+        borderColor: '#6c757d',
+        marginRight: 10,
+    },
+    backBtnText: { color: '#6c757d' },
+    saveBtn: {
+        paddingVertical: 8,
+        paddingHorizontal: 16,
+        borderRadius: 4,
+        backgroundColor: '#007bff',
+    },
+    disabledBtn: { backgroundColor: '#ccc' },
+    saveBtnText: { color: '#fff', fontWeight: '500' },
+});
